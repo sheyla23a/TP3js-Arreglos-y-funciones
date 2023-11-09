@@ -7,8 +7,8 @@
 // Output: 58
 
 
-let lado1 = parseFloat(prompt("Ingrese el valor del primer lado del rectángulo:"));
-let lado2 = parseFloat(prompt("Ingrese el valor del segundo lado del rectángulo:"));
+let lado1 = (prompt("Ingrese el valor del primer lado del rectángulo:"));
+let lado2 = (prompt("Ingrese el valor del segundo lado del rectángulo:"));
 
 function calcularPerimetro(lado1, lado2) {
     let perimetro = 2 * (lado1 + lado2);
